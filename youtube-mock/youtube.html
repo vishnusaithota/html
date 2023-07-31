@@ -5,19 +5,43 @@
     <style>
         .thumbnail {
             width: 300px;
+            display: block;
         }
 
         .search-bar {
             font-size: 20px;
-            marg
+            display: block;
+        }
+
+        .video-preview {
+            display: inline-block;
+            width: 300px;
         }
     </style>
     <title>Youtube.com Clone</title>
 </head>
 
 <body>
-    <img class="thumbnail" src="static/thumbnail-1.webp" alt="">
     <input class="search-bar" type="text" placeholder="Search">
+
+    <div class="video-preview">
+        <img class="thumbnail" src="static/thumbnail-1.webp" alt="">
+        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+        <p class="video-author">Marques Browniee</p>
+        <p class="video-stats">3.4M views &#183; 6 months ago</p>
+    </div>
+    <div class="video-preview">
+        <img class="thumbnail" src="static/thumbnail-2.webp" alt="">
+        <p class="video-title">
+            Try Not to Laugh Challange 9
+        </p>
+        <p class="video-author">
+            Markpiller
+        </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p>
+    </div>
 </body>
 
 </html>
